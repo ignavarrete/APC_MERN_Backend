@@ -3,8 +3,6 @@ import sgMail from "@sendgrid/mail";
 const emailRegistro = async (datos) => {
     const { email, nombre, token } = datos;
 
-    console.log(email);
-
     const htmlConfirmar = `
     <div style="font-family: 'Open Sans','Roboto','Helvetica Neue',Helvetica,Arial,sans-serif; font-size: 16px; color: #757575; line-height: 150%; letter-spacing: normal;">
     <div style="background: #4f46e5; padding: 50px 10px;">
