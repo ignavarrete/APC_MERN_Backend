@@ -1,7 +1,7 @@
 import sgMail from "@sendgrid/mail";
 
 const emailOlvidePassword= async (datos) => {
-    const { email, nombre, token } = data;
+    const { email, nombre, token } = datos;
 
   const htmlRestablecer = `
   <div style="font-family: 'Open Sans','Roboto','Helvetica Neue',Helvetica,Arial,sans-serif; font-size: 16px; color: #757575; line-height: 150%; letter-spacing: normal;">
