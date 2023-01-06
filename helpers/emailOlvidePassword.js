@@ -29,7 +29,7 @@ const emailOlvidePassword= async (datos) => {
   </div>
 `;
 
-  sgMail.setApiKey(process.env.API_KEY);
+  sgMail.setApiKey(process.env.SENDGRID_API_KEY);
 
   const msg = {
     to: email,
